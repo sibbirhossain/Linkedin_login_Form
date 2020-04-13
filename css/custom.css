@@ -1,0 +1,74 @@
+*{
+	margin :0;
+	padding: 0; 
+}
+.signup-section{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0174b0+1,0c8997+100 */
+	background: #0174b0; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #0174b0 1%, #0c8997 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #0174b0 1%,#0c8997 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #0174b0 1%,#0c8997 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0174b0', endColorstr='#0c8997',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	min-height: 100vh;
+}
+.signup-box{
+    width: 500px;
+    margin: auto;
+    padding-top: 35px;
+    text-align: center;
+}
+.signup-box img{}
+.signup-box h1{
+    color: #fff;
+    font-size: 30px;
+}
+.signup-form{
+    padding: 30px;
+    /* background-color: white; */
+}
+.signup-form form{
+    background: #EEEEEE;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0px 0px 13px 5px #55555542;
+}
+.signup-form form label{
+    color: #555;
+    font-size: 17px;
+}
+
+.signup-form form input{
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 15px;
+    border: 1px solid #55555557;
+}
+.signup-form form input[type="submit"]{
+	background-color: #006097;
+	color: #fff;
+	margin-top: 15px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#006097+0,006b96+100 */
+background: #006097; /* Old browsers */
+background: -moz-linear-gradient(top,  #006097 0%, #006b96 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #006097 0%,#006b96 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #006097 0%,#006b96 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006097', endColorstr='#006b96',GradientType=0 ); /* IE6-9 */
+cursor: pointer;
+}
+.signup-form p{
+    text-align: center;
+    color: #ffffff68;
+    margin-top: 20px;
+}
+.signup-form form p{
+    text-align: center;
+    color: #555;
+}
+.signup-form form a{
+    color: #555;
+    font-weight: 500;
+}
+
